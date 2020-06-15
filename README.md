@@ -1,7 +1,7 @@
 Welcome to CD Records!
 
 I'm a huge fan of music and I wanted to make a project around music.
-Let me present you CD Records, a music studio that can help customers to record albums, or double movies, etc.
+Let me present you CD Records, a music studio that can help customers to record albums, or double voices in movies, etc.
 It's a showcase website that presents the studio's offers, allows users to contact the studio via a contact form and presents the members.
 
 I made this project in order to:   
