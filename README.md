@@ -1,24 +1,15 @@
-# cdrecords
+Welcome to CD Records!
 
-## Project setup
-```
-npm install
-```
+I'm a huge fan of music and I wanted to make a project around music.
+Let me present you CD Records, a music studio that can help customers to record albums, or double voices in movies, etc.
+It's a showcase website that presents the studio's offers, allows users to contact the studio via a contact form and presents the members.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+I made this project in order to:   
+    - Realize a showcase project,
+    - Highlight my skills in Vue.js and SCSS (using conditions, the 'for' loop, mixin for a better code architecture),
+    - Challenge myself on the project management:
+        - I created a Trello to assign myself tickets,
+        - I fixed and respected deadlines to finish the project.
+        
+I hope you'll enjoy the project!
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
