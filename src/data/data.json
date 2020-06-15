@@ -1,0 +1,608 @@
+{
+    "LogoComponent": [
+        {
+            "id": 0,
+            "path": "Logo",
+            "routerLink": "/"
+        }
+    ],
+
+    "NavbarComponent": [
+        {
+            "id": 1,
+            "name": "Home",
+            "routerLink": "/"
+        },
+        {
+            "id": 2,
+            "name": "Nos prestations",
+            "routerLink": "/prod_music"
+        },
+        {
+            "id": 3,
+            "name": "Notre matériel",
+            "routerLink": "/materiel"
+        },
+        {
+            "id": 4,
+            "name": "Notre studio",
+            "routerLink": "/studio"
+        },
+        {
+            "id": 5,
+            "name": "Nous contacter",
+            "routerLink": "/contact"
+        }
+    ],
+
+    "HomeComponent": [
+        {
+            "id": 6,
+            "title": "des prestations sur-mesure en fonction de vos besoins",
+            "title_text": "CD Records vous accompagne dans la réalisation de vos projets. Que vous souhaitiez enregistrer une bande son, produire un album, réaliser un clip ou un court-métrage, nous nous assurons de vous fournir tout ce dont vous avez besoin.",
+
+            "img_path_prod_music": "img_home_1",
+            "text_prod_music": "Nous vous accompagnons pour vous aider à donner vie à vos projets musicaux",
+            "router_prod_music": "/prod_music",
+        
+            "img_path_prod_audio": "img_home_2",
+            "text_prod_audio": "Découvrez nos packs afin d’identifier ceux qui s’adapteront le mieux à vos projets",
+            "router_prod_audio": "/prod_audio",
+
+            "img_path_instruments": "img_home_3",
+            "text_instruments": "Bénéficiez de nos instruments de musique disponibles à la location",
+            "router_instruments": "/instruments",
+
+            "buttonText": "Découvrir nos prestations",
+
+            "subTitle": "du matériel de haute qualité",
+            "text_material": "Nous avons équipé notre studio de manière à vous permettre d’atteindre le résultat le plus optimal. Nous nous sommes entourés de partenaires de confiance pour vous fournir une prestation de haute qualité.",
+            "img_path_material": "img_home_4",
+            "buttonTextTwo": "En savoir plus",
+            "router_more": "/materiel"
+        }
+    ],
+
+    "PrestationsComponentHeader": [
+        {
+            "id": 7,
+            "title": "nos prestations",
+            "text": "CD Records vous accompagne dans la réalisation de vos projets. Que vous souhaitiez enregistrer une bande son, produire un album, réaliser un clip ou un court-métrage, nous nous assurons de vous fournir tout ce dont vous avez besoin."
+        }
+    ],
+    
+    "PrestationsComponentNavbar": [
+        {
+            "id": 8,
+            "name": "Production musicale",
+            "routerLink": "/prod_music"
+        },
+        {
+            "id": 9,
+            "name": "Production audiovisuelle",
+            "routerLink": "/prod_audio"
+        },
+        {
+            "id": 10,
+            "name": "Instruments de musique",
+            "routerLink": "/instruments"
+        }
+    ],
+
+    "PrestationsChildrenProdMusicComponent": [
+        {
+            "id": 11,
+            "text": "Grâce à nos ingénieurs du son et à notre matériel de qualité, obtenez le résultat le plus optimal pour vos chansons. De l’enregistrement des pistes au mastering, notre studio est là pour que vous puissiez réaliser vos projets de production musicale."
+        }
+    ],
+
+    "PrestationsChildrenProdMusicComponent_bis": [
+        {
+            "id": 12,
+            "subTitle": "Enregistrement",
+            "text": "Enregistrez vos pistes chant et instruments. Si vous souhaitez ajouter d’autres sons, nous avons le matériel nécessaire à disposition. Vous n’avez plus qu’à laisser libre cours à votre créativité."
+        },
+        {
+            "id": 13,
+            "subTitle": "Post-production",
+            "text": "Montage, recalages rythmiques de la voix, arragements (guitare, basse, ...), une fois votre enregistrement terminé, nos ingénieurs du son s’occupent de tout afin que vous obteniez un résultat parfait."
+        },
+        {
+            "id": 14,
+            "subTitle": "Mixage et Mastering",
+            "text": "Notre studio est également équipé de plugins pour un traitement plus précis de vos morceaux. Nos ingénieurs du son vous aideront à apporter la touche finale à vos enregirstrements."
+        }
+    ],
+
+    "PrestationsChildrenProdMusicComponent_modal": [
+        {
+            "id": 13,
+            "buttonText": "Découvrir nos prestations",
+            "title": "nos tarifs production musicale",
+
+            "subTitle_time": "Durée",
+            "subTitle_price": "Tarifs"
+        }
+    ],
+
+    "PrestationsChildrenProdMusicComponent_modal_times": [
+        {
+            "id": 14,
+            "text": "À l'heure",
+            "price": "20 € / heure"
+        },
+        {
+            "id": 15,
+            "text": "À la journée",
+            "price": "150 € / jour (9h)"
+        },
+        {
+            "id": 16,
+            "text": "À la semaine",
+            "price": "1000 € / semaine"
+        },
+        {
+            "id": 17,
+            "text": "Au mois",
+            "price": "sur devis"
+        },
+        {
+            "id": 18,
+            "text": "Annuel",
+            "price": "sur devis"
+        }
+    ],
+
+    "PrestationsChildrenProdAudioComponent": [
+        {
+            "id": 19,
+            "text": "Nous mettons à votre disposition notre expertise pour vous aider à réaliser vos clips vidéos, vos prises de son, doublage, courts-métrages. Choisissez parmi nos packs celui qui correspond le mieux à vos besoins."
+
+        }
+    ],
+
+    "PrestationsChildrenProdAudioComponent_bis": [
+        {
+            "id": 20,
+            "subTitle": "Pack Music Video",
+            "text": "Une fois votre enregsitrement terminé, nous pouvons vous accompagner sur la prise audio de vos clips musicaux.",
+            "text_pack": "Ce pack inclut :",
+            "list": "Matériel audio",
+            "list_bis": "Equipe technique",
+            "list_ter":"",
+            "list_four": ""
+        },
+        {
+            "id": 21,
+            "subTitle": "Pack Doublage",
+            "text": "Besoin d’enregistrer le doublage d’un film, d’une série ou d’un film d’animation, notre studio est à votre disposition.",
+            "text_pack": "Ce pack inclut :",
+            "list": "Location du studio",
+            "list_bis": "Matériel audio",
+            "list_ter":"Ingénieurs du son",
+            "list_four": ""
+        },
+        {
+            "id": 22,
+            "subTitle": "Pack cinéma",
+            "text": "Pour vos courts ou longs métrages, nous vous aidons à enregistrer les éléments audio que vous souhaitez.",
+            "text_pack": "Ce pack inclut :",
+            "list": "Location du studio",
+            "list_bis": "Matériel audio",
+            "list_ter":"Ingénieurs du son",
+            "list_four": "Accessoires"
+        }
+    ],
+
+    "PrestationsChildrenProdAudioComponent_modal": [
+        {
+            "id": 23,
+            "buttonText": "Découvrir nos prestations",
+            "title": "nos tarifs production audiovisuelle",
+
+            "subTitle_time": "Nos packs",
+            "subTitle_price": "Tarifs"
+        }
+    ],
+
+    "PrestationsChildrenProdAudioComponent_modal_times": [
+        {
+            "id": 24,
+            "text": "Pack music video",
+            "price": "100 € / heure"
+        },
+        {
+            "id": 25,
+            "text": "Pack doublage",
+            "price": "75 € / heure"
+        },
+        {
+            "id": 26,
+            "text": "Pack personnalisé",
+            "price": "sur devis"
+        },
+        {
+            "id": 27,
+            "text": "Pack cinéma",
+            "price": "150 € / heure"
+        }
+    ],
+
+    "PrestationsChildrenProdInstrumentsComponent": [
+        {
+            "id": 28,
+            "text": "Un concert, un festival, des besoins pour vos enregistrements ? Nous vous proposons de louer nos instruments de musique. Vous aurez un large choix afin de satisfaire vos besoins."
+
+        }
+    ],
+
+    "PrestationsChildrenProdInstrumentsComponent_bis": [
+        {
+            "id": 29,
+            "subTitle": "Instruments à corde",
+            "list": "Guitare",
+            "list_bis": "Guitare basse",
+            "list_ter":"Ukulélé",
+            "list_four": "Contrebasse",
+            "list_five": "Violon",
+            "list_six": "Violoncelle",
+            "list_seven": "Piano",
+            "list_eight": "Harpe",
+            "list_nine": "Cithare"
+        },
+        {
+            "id": 30,
+            "subTitle": "Instruments à vent",
+            "list": "Flûte",
+            "list_bis": "Flûte traversière",
+            "list_ter":"Clarinette",
+            "list_four": "Saxophone",
+            "list_five": "Piccolos",
+            "list_six": "Trompettes",
+            "list_seven": "Hautbois",
+            "list_eight": "Trombones",
+            "list_nine": "Tubas"
+        },
+        {
+            "id": 31,
+            "subTitle": "Percussions",
+            "list": "Batterie",
+            "list_bis": "Bongos",
+            "list_ter":"Congas",
+            "list_four": "Djembé",
+            "list_five": "Gong",
+            "list_six": "Xylophone",
+            "list_seven": "Cymbales",
+            "list_eight": "Cloches",
+            "list_nine": "Maracas"
+        }
+    ],
+
+    "PrestationsChildrenProdInstrumentsComponent_modal": [
+        {
+            "id": 32,
+            "buttonText": "Découvrir nos prestations",
+            "title": "nos tarifs production audiovisuelle",
+
+            "subTitle_time": "Nos packs",
+            "subTitle_price": "Tarifs"
+        }
+    ],
+
+    "PrestationsChildrenProdInstrumentsComponent_modal_times": [
+        {
+            "id": 33,
+            "text": "À cordes",
+            "price": "20 € / heure"
+        },
+        {
+            "id": 34,
+            "text": "À vent",
+            "price": "15 € / heure"
+        },
+        {
+            "id": 35,
+            "text": "Percussions",
+            "price": "20 € / heure"
+        },
+        {
+            "id": 36,
+            "text": "Offre personnalisée",
+            "price": "Sur devis"
+        },
+        {
+            "id": 37,
+            "text": "Cordes + vents + Percussions",
+            "price": "47.50 € / heure"
+        }
+    ],
+
+    "MaterialComponentHeader": [
+        {
+            "id": 38,
+            "title": "Découvrez notre matériel",
+            "text": "Notre studio est équipé de matériel de haute qualité afin que nous puissions vous aider à atteindre la perfection. Que ce soit pour vos enregistrements ou la prise de son, nous nous assurons de faire les tests nécessaires pour sélectionner le meilleur du marché."
+        }
+    ],
+
+    "MaterialComponent": [
+        {
+            "id": 39,
+            "path": "img_material_1",
+            "text": "Microphone"
+        },
+        {
+            "id": 40,
+            "path": "img_material_2",
+            "text": "Pédales d'effet"
+        },
+        {
+            "id": 41,
+            "path": "img_material_3", 
+            "text": "Mixage"
+        },
+        {
+            "id": 42,
+            "path": "img_material_4",
+            "text": "Mac et logiciels"
+        },
+        {
+            "id": 43,
+            "path": "img_material_5",
+            "text": "Casques"
+        },
+        {
+            "id": 44,
+            "path": "img_material_6",
+            "text": "Hauts-parleurs et son"
+        }
+    ],
+
+    "MaterialComponentFooter": [
+        {
+            "id": 45,
+            "title": "nos partenaires",
+            "text": ""
+        }
+    ],
+
+    "MaterialComponentFooter_logo": [
+        {
+            "id": 46,
+            "path": "logo_1"
+        },
+        {
+            "id": 47,
+            "path": "logo_2"
+        },
+        {
+            "id": 48,
+            "path": "logo_3"
+        },
+        {
+            "id": 49,
+            "path": "logo_4"
+        }
+    ],
+
+    "MaterialComponentFooter_text": [
+        {
+            "id": 50,
+            "text": "Vous souhaitez devenir partenaire ou revendre votre matériel ou vos instruments ? Contactez-nous afin d’obtenir plus d’informations.",
+            "buttonText": "Nous contacter",
+            "routerLink": "/contact"
+        }
+    ],
+
+    "StudioComponentHeader": [
+        {
+            "id": 51,
+            "title": "CD Records, notre histoire"
+        }
+    ],
+
+    "StudioComponent": [
+        {
+            "id": 52,
+            "path": "img_home_4",
+            "about": "Après avoir travaillé respectivement dans le secteur de la musique et de l’entertainment, nous avons décidé de fonder notre studio il y a plus de 10 ans.La première chose qui nous a motivée, c’est avant tout notre passion pour la musique, évidemment, mais surtout notre envie de proposer un studio intimiste pour créer de la proximité avec les artistes, ingénieurs du son, et musiciens. Depuis, CD Records a accompagné plus d’une centaine d’artistes et enregistré presque miille albums."
+        }
+    ],
+
+    "StudioComponentFooter_title": [
+        {
+            "id": 53,
+            "title": "Qui sommes-nous ?"
+        }
+    ],
+
+    "StudioComponentFooter": [
+        {
+            "id": 54,
+            "path": "avatar_1",
+            "title": "Chris - Co-fondateur",
+            "description": "“J’ai travaillé pendant 8 ans en tant qu’Ingénieur du son pour SYNO Music. Apportez les finitions aux morceaux et permettre de donner vie à de nombreuses chansons, c’est une sensation inimaginable. En fondant CD Records, Debbie et moi avons enfin la possibilité de créer un environnement qui nous ressemble et d’être proche de nos artistes et de nos équipes.”" 
+        },
+        {
+            "id": 55,
+            "path": "avatar_2",
+            "title": "Debbie - Co-fondatrice",
+            "description": "“J’ai commencé ma carrière en tant qu’Agent d’artiste. Je me suis ensuite tourné vers l’entertainment pour le côté scène et spectacle. 7 ans après, Chris et moi avons choisi de créer notre studio. C’est une autre facette de ce métier qui me plaît, pouvoir aider les artistes à concrétiser leur album ou single. C’est enrichissant aussi bien pour nous que pour les artistes.”"
+        }
+    ],
+
+    "contactComponentHeader": [
+        {
+            "id": 56,
+            "title": "formulaire de contact",
+            "text": "CD Records est à votre disposition pour répondre à vos besoins. Vous souhaitez obtenir plus d’informations sur nos prestations, obtenir un devis, nous faire part de votre projet personnalisé, alors contactez-nous."
+        }
+    ],
+
+    "contactComponentForms": [
+        {
+            "id": 57,
+            "lastname": "lastname",
+            "label_lastname": "Nom *",
+            "placeholder_lastname": " ex: Smith",
+
+            "firstname": "firstname",
+            "label_firstname": "Prénom *",
+            "placeholder_firstname": " ex: Will",
+
+            "compagnie": "compagnie",
+            "label_compagnie": "Nom d’entreprise (à renseigner si vous êtes un professionnel)",
+            "placeholder_compagnie": " Saisir votre entreprise",
+
+            "mail": "Email",
+            "label_mail": "Email *",
+            "placeholder_mail": " ex: chris@monmail.com",
+
+            "phone": "phone",
+            "label_phone": "Téléphone *",
+            "placeholder_phone": " ex: 06 XX XX XX XX"
+        }
+    ],
+
+    "contactComponentForms_bis": [
+        {
+            "id": 58,
+            "name": "request",
+            "label": "Votre demande concerne *"
+        }
+    ],
+
+    "contactComponentForms_select": [
+        {
+            "id": 59,
+            "name": "Production musicale"
+        },
+        {
+            "id": 60,
+            "name": "Production audiovisuelle"
+        },
+        {
+            "id": 61,
+            "name": "Location d'instruments"
+        }
+    ],
+
+    "contactComponentForms_bis_children": [
+        {
+            "id": 62,
+            "name": "request_bis",
+            "label": "Prestation souhaitée *"
+        }
+    ],
+
+    "contactComponentForms_select_children": [
+        {
+            "id": 63,
+            "name": "Enregistrement"
+        },
+        {
+            "id": 64,
+            "name": "Post-production"
+        },
+        {
+            "id": 65,
+            "name": "Mixage et Mastering"
+        }
+    ],
+
+    "contactComponentForms_select_children_bis": [
+        {
+            "id": 66,
+            "name": "Pack Music vidéo"
+        },
+        {
+            "id": 67,
+            "name": "Pack Doublage"
+        },
+        {
+            "id": 68,
+            "name": "pack Cinéma"
+        }
+    ],
+
+    "contactComponentForms_select_children_ter": [
+        {
+            "id": 69,
+            "name": "Instruments à corde"
+        },
+        {
+            "id": 70,
+            "name": "Instruments à vent"
+        },
+        {
+            "id": 71,
+            "name": "Percussions"
+        }
+    ],
+
+    "contactComponentForms_ter": [
+        {
+            "id": 72,
+            "name": "description",
+            "label": "Description *",
+            "placeholder": " S’il s’agit d’une location sur une durée, plusieurs familles d’instruments, un pack personnalisé, décrivez-nous votre demande.",
+            "send": "Envoyer"
+        }
+    ],
+    
+
+
+    "footerComponent": [
+        {
+            "id": 73,
+            "title": "À propos",
+            "list": "Qui sommes nous",
+            "list_bis": "Notre matériel",
+            "routerLink": "/studio",
+            "routerLink_bis": "/materiel"
+        },
+        {
+            "id": 74,
+            "title": "Notre expertise",
+            "list_ter": "Production musicale",
+            "list_four": "Production audiovisuelle",
+            "list_five": "Location d'instruments de musique",
+            "routerLink_ter": "/prod_music",
+            "routerLink_four": "/prod_audio",
+            "routerLink_five": "/instruments"
+        },
+        {
+            "id": 75,
+            "title": "Contact",
+            "list_six": "Nous contacter",
+            "routerLink_six": "/contact"
+        },
+        {
+            "id": 76,
+            "title": "CD Records", 
+            "list_seven": "143 rue charles de gaulle",
+            "list_eight": "Paris, France",
+            "routerLink_map": "https://goo.gl/maps/kJBGY9JjBVLSbb3S6"
+        }
+    ],
+
+    "footerComponent_copyright": [
+        {
+            "id": 77,
+            "text": "2020 CD Records. All rights Reserved."
+        }
+    ],
+
+    "contactComponentMail_footer": [
+        {
+            "id": 78,
+            "title": "partenariat, événements et revente",
+            "text": "Ingénieurs du son, fabricants, vous souhaitez devenir partenaire de CD Records ? Vous pouvez nous envoyer un mail à l’adresse suivante :",
+            "text_bis": "Vous préparez un événement et vous avez besoin de matériel ou d’instruments ? Vous pouvez nous envoyer un mail à l’adresse suivante :",
+            "text_ter": "Vous souhaitez revendre vos instruments ? Vous pouvez nous envoyer un mail à l’adresse suivante :",
+            "mail": "partenariat@cd-records.com",
+            "mail_bis": "événement@cd-records.com",
+            "mail_ter": "revente@cd-records.com"
+        }
+    ]
+}

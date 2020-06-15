@@ -1,0 +1,229 @@
+/* title h1 h2 mixins*/
+
+/* global mixins pageStyle */
+
+@mixin titleStyle() {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+@mixin titleSize() {
+  font-size: 1.7rem;
+}
+
+@mixin titleSize_bis() {
+  font-size: 1.3rem;
+}
+
+@mixin titleSize_ter() {
+  font-size: 1.2rem;
+}
+
+@mixin pageStyle() {
+  padding-top: 254px;
+}
+
+@mixin pageStyle_bis() {
+  width: $page_width;
+  @include pos_center();
+}
+
+@mixin pageStyle_ter() {
+  margin-top: 46px;
+  line-height: 28px;
+  text-align: justify;
+  font-size: 1.2rem !important;
+}
+
+@mixin pos_center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* global mixins button customize and pos for everything components */
+
+@mixin button_customize() {
+  width: 50%;
+  height: 60px;
+  background-color: $primary_color;
+  color: $secondary_color;
+  outline: none;
+  border: none;
+  font-size: 1.15rem;
+
+  &:hover {
+    background-color: $primary_color_hover;
+    color: $background_logo;
+    border: 1px solid $primary_color;
+    transition-duration: 0.5s;
+    cursor: pointer;
+  }
+
+  @media (max-width: $tablet_mobile_device) {
+    margin-top: calc(71px / 2);
+  }
+}
+
+@mixin button_pos() {
+  margin-top: 23.5px;
+  @include pos_center();
+}
+
+
+/* Global mixins prestations components style */
+
+@mixin childrenPrestationsPage() {
+  margin-top: $page_top / 2;
+  width: $page_width;
+  font-size: 1rem;
+  @include pos_center();
+
+  @media(max-width: 375px) {
+    font-size: 0.85rem;
+  }
+
+  .bloc-background {
+    padding-top: $page_top;
+    display: flex;
+
+    @include tablet_mobile_device();
+    &-children {
+      height: 350px;
+      width: $page_width / 3 + 1.7;
+      background-position: center center;
+      background-size: cover;
+      padding-top: 15px;
+
+      @media (max-width: $tablet_mobile_device) {
+        width: $page_width + 5;
+      }
+
+      &-small {
+        background-color: $secondary_color;
+        padding: 20px 0px 20px 0px;
+        width: 92%;
+        height: 296px;
+        @include pos_center();
+        opacity: 0.85;
+        h2 {
+          color: $primary_color;
+          word-break: break-word;
+          &:after {
+            content: "";
+            height: 0.5em;
+            width: 90%;
+            @include pos_center();
+            margin-top: 13px;
+            border-top: 1px solid $background_logo;
+          }
+        }
+        p {
+          margin: 48px 10px 0px 10px;
+        }
+      }
+    }
+  }
+
+  .button-modal {
+    @include button_pos();
+    @include button_customize();
+    width: 244px !important;
+    margin-bottom: $page_top;
+  }
+
+  .title {
+    padding-top: $page_top * 4;
+    padding-bottom: $page_top / 1.5;
+  }
+  .title-modal {
+    background-color: $primary_color;
+    color: $secondary_color;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    &-children {
+      margin-left: 5%;
+      .button-close {
+        background: none;
+        color: $secondary_color;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        padding-right: $page_top;
+      }
+    }
+  }
+}
+
+.bloc-prestation {
+  padding-top: $page_top;
+  display: flex;
+  justify-content: space-around;
+
+  &-children {
+    width: 100%;
+    &-bis {
+      margin-top: $page_top / 2;
+      padding: 19px 0px 19px 19px;
+
+      &:nth-child(2n) {
+        background-color: $modal_color;
+      }
+    }
+  }
+}
+
+@mixin backgroundPrestationsProdMusic() {
+  @for $i from 1 through 3 {
+    &:nth-child(#{$i}) {
+      background-image: url("../../../assets/prod_music_#{$i}.png");
+    }
+  }
+}
+
+@mixin borderPrestationsProdAudio() {
+  @for $i from 1 through 3 {
+    &:nth-child(#{$i}) {
+      background-color: $modal_color;
+    }
+  }
+}
+
+@mixin backgroundPrestationsInstruments() {
+  @for $i from 1 through 3 {
+    &:nth-child(#{$i}) {
+      background-image: url("../../../assets/instruments_#{$i}.png");
+    }
+  }
+}
+
+@mixin posPrestationsChildrenPage() {
+  @for $i from 2 through 3 {
+    $margin-pos: 25px;
+    &:nth-child(#{$i}) {
+      margin-left: $margin-pos;
+      @media (max-width: $tablet_mobile_device) {
+        margin-left: 0;
+        margin-top: $margin-pos;
+      }
+    }
+  }
+}
+
+@mixin img_responsive {
+  height: auto;
+  width: $page_width + 5;
+}
+
+
+/* global mixins device responsive breackpoint 768px */
+
+@mixin tablet_mobile_device() {
+  @media (max-width: $tablet_mobile_device) {
+    display: flex;
+    flex-direction: column;
+  }
+}
