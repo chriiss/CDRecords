@@ -12,6 +12,7 @@
     "nodemailer": "^6.4.8",
     "vue": "^2.6.11",
     "vue-js-modal": "^2.0.0-rc.3",
+    "vue-router": "^3.3.4",
     "vuelidate": "^0.7.5"
   },
   "devDependencies": {
