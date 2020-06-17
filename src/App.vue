@@ -1,9 +1,7 @@
 <template>
   <div id="app">
-    <div class="header">
-      <app-logo />
-      <app-navbar />
-    </div>
+    <app-logo />
+    <app-navbar />
     <transition name="fade" mode="out-in">
       <router-view></router-view>
     </transition>
@@ -32,18 +30,8 @@ export default {
 @import "./styles/Mixins.scss";
 
 body {
-  font-family: 'Raleway', serif;
+  font-family: "Raleway", serif;
 }
-
-.header {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 1030;
-  width: 100%;
-}
-
 
 h1,
 h2,
@@ -74,11 +62,13 @@ section {
   }
 }
 
-.fade-enter, .fade-leave-to {
+.fade-enter,
+.fade-leave-to {
   opacity: 0;
   transform: translateX(2rem);
 }
-.fade-enter-active, .fade-leave-active {
-  transition: all .5s ease;
+.fade-enter-active,
+.fade-leave-active {
+  transition: all 0.5s ease;
 }
 </style>

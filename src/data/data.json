@@ -117,7 +117,7 @@
     "PrestationsChildrenProdMusicComponent_modal": [
         {
             "id": 13,
-            "buttonText": "Découvrir nos prestations",
+            "buttonText": "Découvrir nos tarifs",
             "title": "nos tarifs production musicale",
 
             "subTitle_time": "Durée",
@@ -197,7 +197,7 @@
     "PrestationsChildrenProdAudioComponent_modal": [
         {
             "id": 23,
-            "buttonText": "Découvrir nos prestations",
+            "buttonText": "Découvrir nos tarifs",
             "title": "nos tarifs production audiovisuelle",
 
             "subTitle_time": "Nos packs",
@@ -281,7 +281,7 @@
     "PrestationsChildrenProdInstrumentsComponent_modal": [
         {
             "id": 32,
-            "buttonText": "Découvrir nos prestations",
+            "buttonText": "Découvrir nos tarifs",
             "title": "nos tarifs production audiovisuelle",
 
             "subTitle_time": "Nos packs",

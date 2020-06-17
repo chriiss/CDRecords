@@ -21,7 +21,7 @@
 }
 
 @mixin pageStyle() {
-  padding-top: 254px;
+  padding-top: 54px;
 }
 
 @mixin pageStyle_bis() {
@@ -134,7 +134,7 @@
   }
 
   .title {
-    padding-top: $page_top * 4;
+    padding-top: $page_top / 1.5;
     padding-bottom: $page_top / 1.5;
   }
   .title-modal {
