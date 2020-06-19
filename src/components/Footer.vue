@@ -5,24 +5,12 @@
         <div class="footer-bloc-children" v-for="data in getDatas.footerComponent" :key="data.id">
           <h3>{{ data.title }}</h3>
           <ul>
-            <li>
-              <a href="/studio">{{ data.list }}</a>
-            </li>
-            <li>
-              <a href="/materiel">{{ data.list_bis }}</a>
-            </li>
-            <li>
-              <a href="/prod_music">{{ data.list_ter }}</a>
-            </li>
-            <li>
-              <a href="/prod_audio">{{ data.list_four }}</a>
-            </li>
-            <li>
-              <a href="/instruments">{{ data.list_five }}</a>
-            </li>
-            <li>
-              <a href="/contact">{{ data.list_six }}</a>
-            </li>
+            <router-link to="/studio" tag="li">{{ data.list }}</router-link>
+            <router-link to="/materiel" tag="li">{{ data.list_bis }}</router-link>
+            <router-link to="/prod_music" tag="li">{{ data.list_ter }}</router-link>
+            <router-link to="/prod_audio" tag="li">{{ data.list_four }}</router-link>
+            <router-link to="/instruments" tag="li">{{ data.list_five }}</router-link>
+            <router-link to="/contact" tag="li">{{ data.list_six }}</router-link>
             <li>
               <a :href="data.routerLink_map" target="_blank">
                 {{
@@ -86,7 +74,7 @@ footer {
         ul {
           margin-top: $page_top / 2;
           margin-bottom: $page_top / 2;
-          a {
+          li, a {
             color: $secondary_color;
             text-decoration: none;
             cursor: pointer;
