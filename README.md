@@ -13,5 +13,5 @@ I made this project in order to:
         
 I hope you'll enjoy the project!
 
-Project Link: https://bit.ly/3hBnGYB
+Project Link: https://bit.ly/37G9SHN
 
