@@ -6,22 +6,22 @@
           <h3>{{ data.title }}</h3>
           <ul>
             <li>
-              <a :href="data.routerLink">{{ data.list }}</a>
+              <a href="/studio">{{ data.list }}</a>
             </li>
             <li>
-              <a :href="data.routerLink_bis">{{ data.list_bis }}</a>
+              <a href="/materiel">{{ data.list_bis }}</a>
             </li>
             <li>
-              <a :href="data.routerLink_ter">{{ data.list_ter }}</a>
+              <a href="/prod_music">{{ data.list_ter }}</a>
             </li>
             <li>
-              <a :href="data.routerLink_four">{{ data.list_four }}</a>
+              <a href="/prod_audio">{{ data.list_four }}</a>
             </li>
             <li>
-              <a :href="data.routerLink_five">{{ data.list_five }}</a>
+              <a href="/instruments">{{ data.list_five }}</a>
             </li>
             <li>
-              <a :href="data.routerLink_six">{{ data.list_six }}</a>
+              <a href="/contact">{{ data.list_six }}</a>
             </li>
             <li>
               <a :href="data.routerLink_map" target="_blank">

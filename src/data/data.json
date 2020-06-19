@@ -557,25 +557,19 @@
             "id": 73,
             "title": "À propos",
             "list": "Qui sommes nous",
-            "list_bis": "Notre matériel",
-            "routerLink": "/studio",
-            "routerLink_bis": "/materiel"
+            "list_bis": "Notre matériel"
         },
         {
             "id": 74,
             "title": "Notre expertise",
             "list_ter": "Production musicale",
             "list_four": "Production audiovisuelle",
-            "list_five": "Location d'instruments de musique",
-            "routerLink_ter": "/prod_music",
-            "routerLink_four": "/prod_audio",
-            "routerLink_five": "/instruments"
+            "list_five": "Location d'instruments de musique"
         },
         {
             "id": 75,
             "title": "Contact",
-            "list_six": "Nous contacter",
-            "routerLink_six": "/contact"
+            "list_six": "Nous contacter"
         },
         {
             "id": 76,
